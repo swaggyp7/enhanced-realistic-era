@@ -1,0 +1,45 @@
+<prefab version="1.6.2">
+	<group name="instance=MOD/xml/tusk.xml" pos="-3.7 1.0 4.642" rot="0.0 0.0 0.0">
+		<group name="texture and tags" pos="0.3 -0.5 0.12" rot="0.0 0.0 0.0" prop0="texture=12 0.5">
+			<script pos="-0.4 0.3 -0.1" file="MOD/script/frag.lua">
+				<script pos="0.0 0.0 0.0" file="MOD/script/realistic era.lua">
+					<body pos="-0.4 0.2 -0.02" dynamic="true">
+						<group pos="0.4 -0.2 0.0" rot="0.0 0.0 0.0">
+							<vox tags="era nocol explosion invisible attachment RHA=20 ERA=500" pos="0.059 0.19 0.005" rot="0.0 180.0 -90.0" file="MOD/vox/era.vox" object="tusk ex" scale="0.5">
+								<vox tags="nocull nocol attachment" pos="-0.0 -0.041 -0.0" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk1" scale="0.5"/>
+								<vox tags="nocull era nocol attachment RHA=10" pos="0.0 0.009 0.0" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk2" scale="0.5"/>
+								<vox tags="nocull era nocol attachment" pos="0.14 0.151 0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="0.05 0.151 0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="-0.04 0.151 0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="-0.13 0.151 0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<joint pos="-0.01 -0.041 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+								<joint pos="0.06 -0.041 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+								<joint pos="-0.07 -0.041 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+								<vox tags="nocull era nocol attachment" pos="0.14 0.151 -0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="0.05 0.151 -0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="-0.04 0.151 -0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+								<vox tags="nocull era nocol attachment" pos="-0.13 0.151 -0.15" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+							</vox>
+						</group>
+					</body>
+				</script>
+			</script>
+			<script pos="-0.5 0.2 -0.1" file="MOD/script/frag.lua">
+				<script pos="0.0 0.0 0.0" file="MOD/script/realistic era.lua">
+					<body pos="-0.3 0.3 -0.02" rot="0.0 0.0 0.0" dynamic="true">
+						<group pos="0.04 -0.34 0.0" rot="0.0 0.0 10.0">
+							<vox tags="nocull nocol attachment era" pos="0.2 -0.01 0.005" rot="0.0 -90.0 0.0" file="MOD/vox/era.vox" object="tusk3" scale="0.2"/>
+							<vox tags="nocull nocol attachment era" pos="0.25 0.36 -0.085" rot="-90.0 0.0 60.0" file="MOD/vox/era.vox" object="tusk4" scale="0.2">
+								<joint pos="0.0 0.0 -0.09" rot="-90.0 0.0 0.0" type="hinge" rotstrength="5555" limits="0"/>
+								<joint pos="0.0 -0.2 -0.09" rot="-90.0 0.0 0.0" type="hinge" rotstrength="5555" limits="0"/>
+							</vox>
+							<vox tags="nocull nocol attachment era" pos="0.25 0.36 0.135" rot="-90.0 0.0 60.0" file="MOD/vox/era.vox" object="tusk4" scale="0.2"/>
+							<vox tags="era nocol explosion invisibl attachment RHA=10 ERA=100" pos="0.22 -0.01 0.005" rot="0.0 -90.0 0.0" file="MOD/vox/era.vox" object="tusk3 ex" scale="0.2"/>
+						</group>
+					</body>
+				</script>
+			</script>
+		</group>
+	</group>
+</prefab>
+

@@ -1,0 +1,14 @@
+<prefab version="1.6.2">
+	<group name="instance=MOD/xml/relikt bag line.xml" pos="-3.7 1.0 1.555" rot="0.0 0.0 0.0">
+		<script pos="0.3 -0.5 0.12" rot="0.0 0.0 0.0" file="MOD/script/era line.lua">
+			<group name="texture and tags" pos="0.0 0.0 0.0" prop0="texture=12 0.5" prop1="blendtexture=5 .1">
+				<body tags="okidokiera" pos="-0.3 0.5 -0.12" dynamic="true">
+					<vox tags="invisible unbreakable" pos="0.0 -0.05 0.005" rot="0.0 180.0 -90.0" file="MOD/vox/era.vox" object="L side relikt ex" scale="0.5"/>
+					<vox tags="invisible unbreakable" pos="-0.05 -0.05 0.005" rot="0.0 180.0 -90.0" file="MOD/vox/era.vox" object="L side relikt" scale="0.5"/>
+					<joint pos="-0.0 0.0 0.0" rot="0.0 0.0 0.0" type="hinge" rotstrength="50000" limits="00"/>
+				</body>
+			</group>
+		</script>
+	</group>
+</prefab>
+

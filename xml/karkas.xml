@@ -1,0 +1,52 @@
+<prefab version="1.6.2">
+	<group name="instance=MOD/xml/karkas.xml" pos="-3.7 1.0 6.942" rot="0.0 0.0 0.0">
+		<group name="texture and tags" pos="0.3 -0.5 0.12" rot="0.0 0.0 0.0" prop0="texture=12 0.5">
+			<script pos="-0.4 0.3 -0.1" file="MOD/script/frag.lua">
+				<script pos="0.0 0.0 0.0" file="MOD/script/realistic era.lua">
+					<body pos="-0.5 0.2 -0.02" dynamic="true">
+						<group pos="0.5 -0.2 0.0" rot="0.0 0.0 0.0">
+							<vox tags="era nocol explosion invisible attachment RHA=10 ERA=400" pos="-0.041 0.19 0.005" rot="0.0 180.0 -90.0" file="MOD/vox/era.vox" object="karaks ex" scale="0.5">
+								<group pos="-0.0 -0.25 -0.0" rot="0.0 0.0 0.0">
+									<joint pos="-0.07 0.109 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+									<vox tags="nocull nocol attachment" pos="0.0 0.109 0.0" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="karkas1" scale="0.5"/>
+									<vox tags="nocull nocol attachment era" pos="-0.42 0.309 0.0" rot="0.0 0.0 -90.0" file="MOD/vox/era.vox" object="karkas3" scale="0.25"/>
+									<vox tags="nocull nocol attachment era" pos="0.42 0.309 0.0" rot="0.0 360.0 90.0" file="MOD/vox/era.vox" object="karkas3" scale="0.25"/>
+									<vox tags="nocull era nocol attachment RHA=5" pos="0.0 0.359 0.0" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="karkas2" scale="0.5"/>
+									<group pos="0.0 0.55 0.0" rot="0.0 0.0 0.0">
+										<vox tags="nocull era nocol attachment" pos="-0.37 -0.041 0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="-0.37 -0.041 -0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="-0.25 -0.061 -0.17" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="grey bolt" scale="0.2"/>
+										<vox tags="nocull era nocol attachment" pos="0.25 -0.061 -0.17" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="grey bolt" scale="0.2"/>
+										<group pos="-0.4 -0.1 0.0">
+											<vox tags="nocull era nocol attachment" pos="-0.01 0.019 -0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 0.019 0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 -0.321 0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 -0.321 -0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										</group>
+										<group pos="0.42 -0.1 0.0">
+											<vox tags="nocull era nocol attachment" pos="-0.01 0.019 -0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 0.019 0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 -0.321 0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+											<vox tags="nocull era nocol attachment" pos="-0.01 -0.321 -0.14" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										</group>
+										<vox tags="nocull era nocol attachment" pos="0.36 -0.041 0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="0.36 -0.041 -0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="-0.25 -0.061 0.17" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="grey bolt" scale="0.2"/>
+										<vox tags="nocull era nocol attachment" pos="0.25 -0.061 0.17" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="grey bolt" scale="0.2"/>
+										<vox tags="nocull era nocol attachment" pos="-0.12 -0.041 0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="-0.12 -0.041 -0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="0.11 -0.041 0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+										<vox tags="nocull era nocol attachment" pos="0.11 -0.041 -0.09" rot="0.0 0.0 0.0" file="MOD/vox/era.vox" object="tusk bolt" scale="0.1"/>
+									</group>
+									<joint pos="-0.01 0.109 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+									<joint pos="0.06 0.109 0.005" rot="0.0 -180.0 -90.0" type="hinge" rotstrength="50000" limits="00"/>
+								</group>
+							</vox>
+						</group>
+					</body>
+				</script>
+			</script>
+		</group>
+	</group>
+</prefab>
+

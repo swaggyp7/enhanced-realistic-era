@@ -1,0 +1,13 @@
+<prefab version="1.6.2">
+	<group name="instance=MOD/xml/kontakt1 line.xml" pos="-3.79 1.0 0.48" rot="0.0 0.0 0.0">
+		<script pos="0.59 -0.5 0.12" file="MOD/script/era line.lua">
+			<group name="texture and tags" pos="0.0 0.0 0.0" prop0="texture=12 0.5" prop1="blendtexture=5 .15">
+				<body tags="okidokiera" pos="-0.5 0.5 -0.12" dynamic="true">
+					<vox tags="invisible unbreakable " pos="0.0 0.0 0.02" rot="-90.0 90.0 0.0" file="MOD/vox/era.vox" object="k1 bottom2" scale="0.3"/>
+					<vox tags="invisible unbreakable nocol2" pos="-0.01 0.02 0.02" rot="-90.0 90.0 0.0" file="MOD/vox/era.vox" object="k1 main2" scale="0.3"/>
+				</body>
+			</group>
+		</script>
+	</group>
+</prefab>
+

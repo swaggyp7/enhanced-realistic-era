@@ -1,0 +1,13 @@
+-- Okidoki's ERA Guide --
+If you use this mod in your mod, please credit for me.
+
+
+1. The files you need : script folder and snd folder.
+
+2. I already made an example. And it doesn't have fragments. (Fragments could make some unexpected issues)
+
+3. tag : era <- Shapes have this tag will disappear after explosion. So if you want to leave its case, Don't tag the case part (Refer to my BUSK era)
+
+4. tag : explosion <- main part. If a shape has this tag is broken, it starts to explode
+
+5. Avoid overlapping. When era is deleted, voxels in ovelapped are also deleted.

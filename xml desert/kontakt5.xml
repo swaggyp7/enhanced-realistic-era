@@ -1,0 +1,16 @@
+<prefab version="1.6.2">
+	<group name="instance=MOD/xml/kontakt5.xml" pos="-3.7 1.0 3.88" rot="0.0 0.0 0.0">
+		<script pos="0.0 -0.2 0.0" file="MOD/script/frag.lua">
+			<script pos="0.3 -0.3 0.12" file="MOD/script/realistic era.lua">
+				<group name="texture and tags" pos="0.0 0.0 0.0" prop0="texture=12 0.5">
+					<body pos="-0.5 0.5 -0.12" dynamic="true">
+						<vox tags="era nocol explosion invisibl attachment RHA=120 ERA=420" pos="0.2 -0.01 0.005" rot="0.0 180.0 -90.0" file="MOD/vox/era desert.vox" object="kon5 ex" scale="0.25"/>
+						<vox tags="nocull era nocol attachment" pos="0.1 -0.01 0.005" rot="0.0 0.0 -90.0" file="MOD/vox/era desert.vox" object="kon5" scale="0.25"/>
+						<joint pos="0.2 0.0 0.0" rot="0.0 0.0 0.0" type="hinge" rotstrength="50000" limits="00"/>
+					</body>
+				</group>
+			</script>
+		</script>
+	</group>
+</prefab>
+

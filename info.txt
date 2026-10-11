@@ -1,0 +1,5 @@
+name = Realistic ERA: Auto-Cover
+author = Andrew
+description = One-key ERA coverage per armor face (X). Built on Okidoki's Realistic ERA.
+tags = Tool
+preview = preview.jpg

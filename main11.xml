@@ -1,0 +1,33 @@
+<scene version="1.6.2" shadowVolume="200 100 200">
+	<environment template="sunny" skyboxrot="-45"/>
+	<voxbox pos="-100.0 -0.1 -100.0" size="2000 1 2000"/>
+	<boundary>
+		<vertex pos="-100.0 -100.0"/>
+		<vertex pos="100.0 -100.0"/>
+		<vertex pos="100.0 100.0"/>
+		<vertex pos="-100.0 100.0"/>
+	</boundary>
+	<script file="main.lua"/>
+	<script file="sandbox.lua"/>
+	<instance pos="-3.7 1.0 0.31" rot="0.0 0.0 0.0" file="MOD/xml/kontakt1.xml"/>
+	<instance pos="-3.7 1.0 1.18" rot="0.0 0.0 0.0" file="MOD/xml/relikt bag.xml"/>
+	<instance pos="-3.7 1.0 1.555" rot="0.0 0.0 0.0" file="MOD/xml/relikt bag line.xml"/>
+	<instance pos="-3.79 1.0 0.48" rot="0.0 0.0 0.0" file="MOD/xml/kontakt1 line.xml"/>
+	<instance pos="-3.7 1.0 3.88" rot="0.0 0.0 0.0" file="MOD/xml/kontakt5.xml"/>
+	<instance pos="-3.7 1.0 4.24" rot="0.0 0.0 0.0" file="MOD/xml/kontakt5 line.xml"/>
+	<instance pos="-3.7 1.0 1.939" rot="0.0 0.0 0.0" file="MOD/xml/relikt.xml"/>
+	<instance pos="-3.7 1.0 2.324" rot="0.0 0.0 0.0" file="MOD/xml/relikt line.xml"/>
+	<instance pos="-3.7 1.0 2.88" rot="0.0 0.0 0.0" file="MOD/xml/nozh.xml"/>
+	<instance pos="-3.7 1.0 3.132" rot="0.0 0.0 0.0" file="MOD/xml/nozh line.xml"/>
+	<instance pos="-3.7 1.0 4.642" rot="0.0 0.0 0.0" file="MOD/xml/tusk.xml"/>
+	<instance pos="-3.7 1.0 5.172" rot="0.0 0.0 0.0" file="MOD/xml/tusk line.xml"/>
+	<voxbox pos="-3.698 0.0 -0.763" size="1 18 152" offset="0.0 0.0 -33.0" color="0.92 0.71 0.71"/>
+	<voxbox pos="-4.198 0.1 -0.763" rot="0.0 0.0 -90.0" size="1 23 78" offset="-0.0 -5.0 -33.0"/>
+	<spawnpoint pos="-8.5 0.0 2.8"/>
+	<instance pos="-3.7 1.0 5.742" rot="0.0 0.0 0.0" file="MOD/xml/busk.xml"/>
+	<instance pos="-3.7 1.0 6.202" rot="0.0 0.0 0.0" file="MOD/xml/busk line.xml"/>
+	<instance pos="-3.7 1.0 6.942" rot="0.0 0.0 0.0" file="MOD/xml/karkas.xml"/>
+	<instance pos="-3.7 1.0 9.242" rot="0.0 0.0 0.0" file="MOD/Guide example.xml"/>
+	<instance pos="-3.7 1.0 7.632" rot="0.0 0.0 0.0" file="MOD/xml/karkas line.xml"/>
+</scene>
+
